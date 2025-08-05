@@ -593,3 +593,15 @@ else:
         <p>Enter a city name in the sidebar to get started!</p>
     </div>
     """, unsafe_allow_html=True)
+
+def main():
+    """
+    Main function to run the weather forecast application.
+    This function is called when the script is run directly.
+    """
+    # The Streamlit app runs automatically when imported
+    # This function is here for compatibility with the project structure
+    pass
+
+if __name__ == "__main__":
+    main()
