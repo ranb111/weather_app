@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "weather-forecast-app"
+version = "1.0.0"
+description = "A comprehensive weather forecast application built with Streamlit"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "weather_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.28.0"
+requests = "^2.31.0"
+pandas = "^2.0.0"
+matplotlib = "^3.7.0"
+seaborn = "^0.12.0"
+pytz = "^2023.3"
+folium = "^0.14.0"
+streamlit-folium = "^0.13.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+weather-app = "weather_app_new:main" 
