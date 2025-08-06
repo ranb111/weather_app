@@ -3,6 +3,6 @@ requests>=2.31.0
 pandas>=2.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
-pytz
-folium
-streamlit-folium 
+pytz>=2023.3
+folium>=0.14.0
+streamlit-folium>=0.13.0 
