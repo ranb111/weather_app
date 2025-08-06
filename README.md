@@ -40,7 +40,8 @@ streamlit run weather_app_new.py
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application using one of the methods above
+3. For Streamlit Cloud deployment, the `packages.txt` file will handle system dependencies
+4. Run the application using one of the methods above
 
 ## Usage Instructions
 1. Enter a city name in the sidebar search box
@@ -71,7 +72,7 @@ streamlit run weather_app_new.py
 - streamlit-folium
 
 ## Author
-[Your Name] - [Your Email]
+[Ran Binyamin] - [ranbinyamin15@gmail.com]
 
 ## Project Structure
 ```
